@@ -6,6 +6,18 @@ function loadData <T>(data: T):void{
 loadData <string>("string data");
 loadData <number>(3333);
 
+// New one 
+function loodata <T> (data: T ){
+    console.log(data)
+}
+
+loodata<string>("hello type");
+loodata <number> (384989);
+loodata <boolean> (false);
+loodata <string[]> (["A","d","e"]);
+
+
+
 // generics interface examle 
 interface ApiResponse <T> {
     success: boolean;

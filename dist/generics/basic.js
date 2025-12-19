@@ -6,6 +6,14 @@ function loadData(data) {
 }
 loadData("string data");
 loadData(3333);
+// New one 
+function loodata(data) {
+    console.log(data);
+}
+loodata("hello type");
+loodata(384989);
+loodata(false);
+loodata(["A", "d", "e"]);
 const userResponse = {
     success: true,
     data: {
